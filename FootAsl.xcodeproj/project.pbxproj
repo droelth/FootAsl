@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F667A8CF2971AD72000C858A /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667A8CE2971AD72000C858A /* Brain.swift */; };
 		F694B9532970B64A00318E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694B9522970B64A00318E96 /* AppDelegate.swift */; };
 		F694B9552970B64A00318E96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694B9542970B64A00318E96 /* SceneDelegate.swift */; };
 		F694B9572970B64A00318E96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694B9562970B64A00318E96 /* ViewController.swift */; };
 		F694B95A2970B64A00318E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F694B9582970B64A00318E96 /* Main.storyboard */; };
 		F694B95C2970B64B00318E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F694B95B2970B64B00318E96 /* Assets.xcassets */; };
 		F694B95F2970B64B00318E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F694B95D2970B64B00318E96 /* LaunchScreen.storyboard */; };
+		F694B9692970B6E600318E96 /* footballTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694B9682970B6E600318E96 /* footballTeam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F667A8CE2971AD72000C858A /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Brain.swift; path = ../Brain.swift; sourceTree = "<group>"; };
 		F694B94F2970B64A00318E96 /* FootAsl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootAsl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F694B9522970B64A00318E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F694B9542970B64A00318E96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		F694B95B2970B64B00318E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F694B95E2970B64B00318E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F694B9602970B64B00318E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F694B9682970B6E600318E96 /* footballTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footballTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F694B9512970B64A00318E96 /* FootAsl */ = {
 			isa = PBXGroup;
 			children = (
+				F667A8CE2971AD72000C858A /* Brain.swift */,
 				F694B9522970B64A00318E96 /* AppDelegate.swift */,
 				F694B9542970B64A00318E96 /* SceneDelegate.swift */,
 				F694B9562970B64A00318E96 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				F694B95B2970B64B00318E96 /* Assets.xcassets */,
 				F694B95D2970B64B00318E96 /* LaunchScreen.storyboard */,
 				F694B9602970B64B00318E96 /* Info.plist */,
+				F694B9682970B6E600318E96 /* footballTeam.swift */,
 			);
 			path = FootAsl;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				F694B9572970B64A00318E96 /* ViewController.swift in Sources */,
 				F694B9532970B64A00318E96 /* AppDelegate.swift in Sources */,
 				F694B9552970B64A00318E96 /* SceneDelegate.swift in Sources */,
+				F667A8CF2971AD72000C858A /* Brain.swift in Sources */,
+				F694B9692970B6E600318E96 /* footballTeam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
